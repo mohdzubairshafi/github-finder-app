@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-card-image .card.image-full::before {
+  border-radius: 0.5rem;
+  opacity: 0.45;
+}
+
+.stats::-webkit-scrollbar {
+  width: 1em;
+  height: 0.3rem;
+}
+.stats::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  margin-block: 0.21rem;
+}
+.stats::-webkit-scrollbar-thumb {
+  border-radius: 100vw;
+  background-color: hsl(158 64% 52%);
+}
+
